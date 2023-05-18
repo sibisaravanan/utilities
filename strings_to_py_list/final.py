@@ -1,0 +1,12 @@
+[
+    "Quagmire",
+    "Maelstrom",
+    "Flummox",
+    "Tchotchke",
+    "Kerfuffle",
+    "Brouhaha",
+    "Hodgepodge",
+    "Plethora",
+    "Scuttlebutt",
+    "Skedaddle",
+]
