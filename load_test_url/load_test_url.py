@@ -1,6 +1,6 @@
 import requests
 from multiprocess import Process
-
+import variables as var
 
 def make_request(url):
     try:
@@ -10,9 +10,8 @@ def make_request(url):
         print(f"An error occurred while making a request to {url}: {e}")
 
 if __name__ == "__main__":
-    url = "http://exmaple.com"
-    num_requests = 1000
-
+    url = var.url
+    num_requests = var.num_requests
     for i in range(1,num_requests):
         p = Process(target=make_request, args=(url,))
         p.start()
